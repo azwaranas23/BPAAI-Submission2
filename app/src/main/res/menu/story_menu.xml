@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/add_story"
+        android:icon="@drawable/ic_baseline_add_box_24"
+        android:title="@string/add_story"
+        app:showAsAction="ifRoom" />
+    <group android:menuCategory="container">
+        <item android:id="@+id/logout"
+            android:title="@string/logout" />
+    </group>
+    <item
+        android:id="@+id/map_story"
+        android:icon="@drawable/ic_baseline_map_24"
+        android:title="@string/map_story"
+        app:showAsAction="ifRoom" />
+</menu>
